@@ -1,6 +1,5 @@
 
-<img src="_media/lemon.jpeg" height="200" width="200" >
-
+<img src="_media/lemon.jpeg" height="100" width="100" >
 
 
 # ZhenLiu666 
