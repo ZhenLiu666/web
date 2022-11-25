@@ -1,7 +1,11 @@
 - [个人简介](README.md)
+
 - 研究-Research
 
-  - [钻杆在井中的模拟](Research/SLB/221022_SLB.md)
+  - [钻杆在井中的模拟](Research/SLB/SLB_钻杆模拟.md)
+    - [研究进展](Research/SLB/SLB_钻杆模拟研究进展.md)
+    - [交流学习](Research/SLB/SLB_discuss_钻杆模拟.md)
+    - [延伸阅读](Research/SLB/SLB_ref_钻杆模拟.md)
   - [有限元工业软件开发](Research/BeFEM/BeFEM.md)
     - [vtk](Research/BeFEM/BeFEM_vtk.md)
     - [gmsh](Research/BeFEM/BeFEM_gmsh.md)
@@ -13,11 +17,20 @@
   - [Sobolev空间迹定理](Research/Trace/Trace_迹定理问题.md)
     - [研究进展](Research/Trace/Trace_迹定理研究进展.md)
     - [延伸阅读](Research/Trace/Trace_迹定理延伸阅读.md)
+  
 - 课程-Course
-
+  - [有限元课程](Course/FEMCourse/FEMCourse.md)
+    - [位移元](Course/FEMCourse/FEM_位移元.md)
+    - [混合元](Course/FEMCourse/FEM_混合元.md)
+    - [杂交元](Course/FEMCourse/FEM_杂交元.md)
+  - [计算力学](Course/CompuMechanic/CM_计算力学.md)
+    - [经典加权余量法](Course/CompuMechanic/CM_经典加权余量法.md)
+    - [有限元工程问题经验](Course/CompuMechanic/CM_有限元工程问题经验.md)
+    - [无网格方法与粒子法](Course/CompuMechanic/CM_无网格方法与粒子法.md)
   - 数值分析
     - [数值积分](Course/NumericAnalysis/数值积分.md)
   - 材料力学
+    - [材料力学附录](Course/MaterialMechanic/材料力学附录.md)
     - [课程笔记-上册](Course/MaterialMechanic/材料力学上册.md)
     - [课程笔记-下册](Course/MaterialMechanic/材料力学下册.md)
   - 程序设计实习
@@ -27,26 +40,45 @@
     - [CPP异常](Course/ProgrammingDesign/221015_程序设计实习_CPP异常.md)
     - [标准模版库STL](Course/ProgrammingDesign/221015_程序设计实习_标准模版库STL.md)
     - [文件操作](Course/ProgrammingDesign/221015_程序设计实习_文件操作.md)
+  
 - 兴趣-Interest
 
+  - [约束优化](Interest/约束优化/约束优化.md)
   - [多重网格](Interest/多重网格/多重网格.md)
   - [最优运输](Interest/最优运输/221022_OT_交流学习.md)
+  - [特征值问题](Interest/特征值问题/EigenVal_交流学习.md)
+  
 - 生活-Skills
 
+  - [Excel](Skills/Excel.md)
+  - [PPT](Skills/PPT.md)
   - [dosify渲染网站](Skills/个人博客.md)
-- [gollum使用](Skills/gollum.md)
+  - [gollum使用](Skills/gollum.md)
+
 - 教学-Teaching
 
   - 2022秋-高等数学A
+
 - 编程-Programming
+  - [GDB](Programming/GDB/gdb.md)
 
   - [Git](Programming/Git/Git.md)
+
   - [Terminal](Programming/Terminal/Terminal.md)
+
   - [Cpp](Programming/Cpp/Cpp.md)
+
   - [Python](Programming/Python/Python.md)
+
   - [Fortran](Programming/Fortran/Fortran.md)
+
   - [Matlab](Programming/Matlab/Matlab.md)
+
   - [Maple](Programming/Maple/Maple.md)
+
   - [Cmake](Programming/Cmake/Cmake.md)
+
   - [Latex](Programming/Latex/Latex_Latex.md)
-  
+
+    
+

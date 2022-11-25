@@ -13,15 +13,35 @@
 
 
 
+#### 常用函数和功能
+
+- [EnumClass](https://www.geeksforgeeks.org/enum-classes-in-c-and-their-advantage-over-enum-datatype/)
+
+  - enum类支持的使用比较受限，不注意就会报错：
+
+    - 不同的enum类中不能有名字相同的成员，而且外部变量也不能和类中的成员名字一致；
+    - 不同的enum类中的成员不能作为整数值进行
+
+  - enum class类支持
+
+    - c++ 11引入了枚举类(也称为作用域枚举)，使枚举既具有强类型又具有强作用域。类enum不允许隐式转换为int，也不比较来自不同枚举的枚举数。
+
+    - 要定义enum类，我们在enum关键字后面使用class关键字。
+
+      ```c++
+      enum class Color{ Red, Green, Blue};// Declaration
+      Color col = Color::Red;// Initialisation
+      ```
+
+- others
 
 
 
+#### CPP编译链接
 
-#### 面向对象的程序设计方法
-
+- 参考资料：
+  - [g++编译链接指令集合](https://zhuanlan.zhihu.com/p/372722440)
 - 
-
-
 
 
 
