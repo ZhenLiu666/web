@@ -14,6 +14,8 @@
 
 - <a href="pdf/FEM_Fengk_MathematicalTheoryOfElasticStructure.pdf" target="_blank">弹性结构的数学理论（英文）</a>
 - <a href="pdf/FEM_冯康石钟慈_弹性结构的数学理论.pdf" target="_blank">弹性结构的数学理论（中文）</a>
+- <a href="pdf/Comb_薄板弯曲后验误差估计(多种边界条件).pdf" target="_blank">薄板弯曲后验误差估计(多种边界条件)</a>
+- 
 
 
 
@@ -21,12 +23,16 @@
 
 - <a href="pdf/Comb_四阶问题混合形式收敛性1972.pdf" target="_blank">四阶问题混合形式收敛性（1972）</a>
 - <a href="pdf/Comb_四阶问题混合形式等价性HHJ.pdf" target="_blank">四阶问题混合形式等价性（HHJ）</a>
+- <a href="pdf/Comb_divdiv协调元的有限元方法(陈龙).pdf" target="_blank">divdiv协调元的有限元方法(陈龙)</a>
+- <a href="pdf/Comb_剪切效应简单有效三角形单元板弯曲(工程).pdf" target="_blank">剪切效应简单有效三角形单元板弯曲(工程)</a>
+- 
 
 
 
 ##### 弹性组合体问题
 
 - <a href="pdf/FEM_huang2006_GeneralElasticMultistructures.pdf" target="_blank">多弹性组合体结构（黄建国2006）</a>
+- <a href="pdf/Comb_两个板拼接位移协调元方法(1988).pdf" target="_blank">两个板拼接位移协调元方法(1988)</a>
 
 
 
