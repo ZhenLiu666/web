@@ -58,6 +58,21 @@
 - 教学-Teaching
 
   - 2022秋-高等数学A
+    - [基础入门](Teaching/gsa/220906gsa_course1)
+    - [数列极限一](Teaching/gsa/220913gsa_course2)
+    - [数列极限二](Teaching/gsa/220920gsa_course3)
+    - [函数极限与连续](Teaching/gsa/220927gsa_course4)
+    - [函数导数与微分](Teaching/gsa/221004gsa_course5)
+    - [定积分基础](Teaching/gsa/221011gsa_course6)
+    - [微积分基本定理](Teaching/gsa/221018gsa_course7)
+    - [不定积分定积分计算](Teaching/gsa/221025gsa_course8)
+    - [微分中值定理](Teaching/gsa/221101gsa_course9)
+    - [Taylor公式](Teaching/gsa/221108gsa_course10)
+    - [函数性质与作图](Teaching/gsa/221115gsa_course11)
+    - [函数凹凸性](Teaching/gsa/221122gsa_course12)
+    - [多元函数极限](Teaching/gsa/221129gsa_course13)
+    - [偏微分与全微分](Teaching/gsa/221206gsa_course14)
+    - [方向导数与隐函数定理](Teaching/gsa/221213gsa_course15)
 
 - 编程-Programming
   - [GDB](Programming/GDB/gdb.md)
