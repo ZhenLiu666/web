@@ -10,6 +10,7 @@
     - [vtk](Research/BeFEM/BeFEM_vtk.md)
     - [gmsh](Research/BeFEM/BeFEM_gmsh.md)
     - [自适应算法](Research/BeFEM/221023_FEM_adaptive.md)
+    - [工程实践](Research/BeFEM/230114_FEM_engirneer.md)
   - [弹性组合体问题](Research/Comb/Comb_弹性组合体问题.md)
     - [研究进展](Research/Comb/Comb_弹性组合研究进展.md)
     - [交流学习](Research/Comb/Comb_discuss_弹性组合体.md)

@@ -6,13 +6,36 @@
 
 
 
+##### 文件的四种状态
+
+- Untracked 未跟踪
+
+- Unmodified 已入库，未修改
+
+- Modified 已修改，未进行其他操作
+
+- Staged 暂存状态
+
+  
+
+##### 四个工作区域：
+
+- （1）工作目录Working Directory  
+- （2）暂存区Stage/index
+- （3）本地仓库Repository
+- （4）远程仓库Remote
+- （1） git add (2)  git commit (3) git push (4) 
+- （4） git pull (3) git reset   (2)  git checkout (1)
+
+
+
+
+
 ##### 基本操作
 
 - git    // 测试是否安装git
 - git --version  // 检查git版本
 - ls -ah // 查看隐藏的文件
-
-
 
 
 
@@ -54,9 +77,6 @@
   - git checkout master
   - git merge master 
   - git branch -d dev  // 删除分支
-- 
-
-
 
 
 
@@ -84,6 +104,27 @@
   - 这个 commit_id 是你想要回到的那个节点，可以通过 git log 查看，可以只选前 6 位。撤销之后，你所做的已经 commit 的修改还在工作区！
   - 撤销 commit, 同时本地删除该 commit 修改： git reset --hard commit_id
   - 这个 commit_id 是你想要回到的那个节点，可以通过 git log 查看，可以只选前6位 [谨慎操作] 撤销之后，你所做的已经 commit 的修改将会清除，仍在工作区/暂存区的代码也将会清除！
+
+
+
+##### git 常用命令汇总
+
+```
+git init                #初始化当前项目
+git clone               #克隆仓库到本地（工作目录）
+git status <filename>   #查看指定文件状态
+git status              #查看所有文件状态
+git commit -m "注释内容" #提交暂存区的文件到本地仓库
+
+#忽略文件
+*.txt  #忽略所有.txt结尾的文件
+!lib.txt #但lib.txt除外
+/temp  #仅忽略项目根目录下的TODO文件，不包括其他目录temp
+build/ #忽略build/目录下的所有文件
+doc/*.txt #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+```
+
+
 
 
 

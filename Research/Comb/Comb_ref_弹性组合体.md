@@ -8,6 +8,8 @@
 
 ##### 力学知识相关
 
+- 
+
 
 
 ##### 位移法求解线弹性力学问题
@@ -15,7 +17,7 @@
 - <a href="pdf/FEM_Fengk_MathematicalTheoryOfElasticStructure.pdf" target="_blank">弹性结构的数学理论（英文）</a>
 - <a href="pdf/FEM_冯康石钟慈_弹性结构的数学理论.pdf" target="_blank">弹性结构的数学理论（中文）</a>
 - <a href="pdf/Comb_薄板弯曲后验误差估计(多种边界条件).pdf" target="_blank">薄板弯曲后验误差估计(多种边界条件)</a>
-- 
+- [线弹性问题的数值求解_魏华祎](Research/Comb/线弹性问题的数值求解_魏华祎.md)
 
 
 

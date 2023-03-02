@@ -33,7 +33,38 @@
       Color col = Color::Red;// Initialisation
       ```
 
+- Vector类
+
+  - 定义数组或矩阵
+
+    `vector<int> v1  //定义一维向量`
+
+    `vector<vector<double>> v2  //定义二维矩阵`
+
+  - vector的初始化方法
+
+    ```c++
+    vector<int> vec1; //创建vector对象，未添加任何元素
+    vector<double> vec2(3); //初始化了一个有三个元素的vector，使用编译器默认的初始值（VS是0）
+    vector<int> vec3(3,1); //初始化成{1,1,1}
+    vector<vector<int>> vec4{{1,1},{1,1}}; //直接赋值
+    vector<int> vec4(vec3); //拷贝vec的元素
+    ```
+
+  - 常用操作
+
+  ```c++
+  a.size();//返回a的元素个数
+  a[0].size(); //a是一个vector<vector<int>>，返回第一行的元素个数
+  a.push_back(1); //把1压入a
+  a.pop_back(); //弹出最后一个元素
+  a[0].push_back(1); //a是一个vector<vector<int>>,把1压入a的第一行
+  a.insert(a.begin()+i,n); //在第i+1个元素前面插入n
+  a.erase(a.begin()+2); //删除第三个元素
+  ```
+
 - others
+
 
 
 
