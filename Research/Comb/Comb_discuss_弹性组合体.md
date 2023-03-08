@@ -722,13 +722,18 @@
 
 #### 230302  刘震 HHJ各种边值变分的提法
 
-- 本次探讨的文章是： A Decomposition Result
+- 本次探讨的文章是： A DECOMPOSITION RESULT FOR KIRCHHOFF PLATE BENDING PROBLEMS AND A NEW DISCRETIZATION APPROACH
+
 - 关于$Ndof$和$h$的关系，假设考虑的是正方形区域，沿着x方向的节点数是$N=1/h$,从而总的自由度个数等于某个常数倍的节点数$Ndof=N*N=1/h^2$，也就是$h = Ndof^{-1/2}$
+
 - 关于矩形薄板四个边施加简支边界条件的级数解法（双级数解法）：
+
   - 由于四个边都是简支边，因此可以给出基底是sinsin，最终解只是找对应的系数；
   - 假设考虑的是均布力，只需将均布力在对应的基底展开，带入方程系数相等即可得到真实的解；
   - 假设考虑的是集中力，可以看成是均布力和某个$\delta$函数的作用，再代入之前的公式即可；
+
 - 关于变分形式等价性的探讨：
+
   - 纯固支板HHJ变分形式解的存在唯一性的证明思路：
     - 先证明纯固支板HHJ变分形式的解是存在唯一的；
     - 再证明经典位移法的变分解就是纯固支板HHJ变分形式的解；
@@ -738,12 +743,26 @@
     - 由于经典变分的解是存在唯一的，再证明本文变分的解是存在唯一的；
     - 由于两个变分的解都是唯一的，并且一个变分的解满足另一个变分，从而两个变分等价；
   - 上述两者的区别是本文变分的适定性需要先通过证明经典位移法的变分解满足本文推导的变分！
+
 - 关于强制边值和自然边值的讨论：
+
   - 本文的变分在对挠度和弯矩所在的空间都施加了强制边值：
+
     - 强制挠度： $w = 0  \quad on \quad \Gamma_{c} \cup \Gamma_{s}$
     - 强制弯矩： $Mnn=0 \quad on \quad \Gamma_{s}\cup \Gamma_{{f}} \quad [Mnt]|_{x}=0 \quad on V_{f}$（在空间的定义中强制满足）
     - 自由转角和自由剪力（包含在方程中实现）
-  - 
+
+  - 定理 Let $\boldsymbol{N} \in \boldsymbol{L}^2(\Omega)_{\mathrm{sym}} \cap \boldsymbol{C}^1(\bar{\Omega})$. Then $\boldsymbol{N} \in \boldsymbol{H}\left(\operatorname{div} \operatorname{Div}, \Omega ; Q^*\right)_{\mathrm{sym}}$ if andonly if
+    $$
+    \mathbf{N}_{n n}=0 \quad \text { on } \Gamma_s \cup \Gamma_f \quad \text { and } \quad [ \mathbf{N}_{n t} ]_x=0 \quad \text { for all } x \in \mathcal{V}_{\Gamma, f}
+    $$
+
+  - 上述定理给出了本文定义的弱空间下其实是包含强制边值条件的，但是需要具有某种光滑性的函数才能体现出来，对于有限元空间也有上述的等价性。在具体实现的时候，本文采用了分成三个子问题的方法求解，并且把强制边值作为某种限制条件加在某个方程上，因此施加起来比较麻烦。gu
+
+- 下一步计划：
+
+  - 按照本文适定性的证明思路，从两个板拼接的经典变分出发推导出我们定义的两个板混合变分问题，然后说明混合变分问题的适定性infsup满足（可以利用本文的证明思路）；
+  - 计算部分采用马睿张敏的divdiv元计算，这里需要注意divdiv元在边界上的迹是什么？这样才能知道哪些条件是可以作为本质条件施加在空间上的？
 
 
 

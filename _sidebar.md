@@ -34,6 +34,7 @@
     - [材料力学附录](Course/MaterialMechanic/材料力学附录.md)
     - [课程笔记-上册](Course/MaterialMechanic/材料力学上册.md)
     - [课程笔记-下册](Course/MaterialMechanic/材料力学下册.md)
+  - [薄板弯曲理论](Course/PlateBending/PlateBending.md)
   - 程序设计实习
     - [计算机基础](Course/ProgrammingDesign/221015_程序设计实习_计算机基础.md)
     - [类和对象](Course/ProgrammingDesign/221015_程序设计实习_类和对象.md)
