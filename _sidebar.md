@@ -6,6 +6,7 @@
     - [研究进展](Research/SLB/SLB_钻杆模拟研究进展.md)
     - [交流学习](Research/SLB/SLB_discuss_钻杆模拟.md)
     - [延伸阅读](Research/SLB/SLB_ref_钻杆模拟.md)
+    - [代码介绍](Research/SLB/SLB_代码介绍.md)
   - [有限元工业软件开发](Research/BeFEM/BeFEM.md)
     - [vtk](Research/BeFEM/BeFEM_vtk.md)
     - [gmsh](Research/BeFEM/BeFEM_gmsh.md)

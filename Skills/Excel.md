@@ -4,6 +4,14 @@
 
 
 
+[GhatExcel](https://mp.weixin.qq.com/s/sSbvbJ2Zc3igj017OlybMA)
+
+对应的使用链接如下：https://chatexcel.com/
+
+
+
+
+
 #### 常用函数功能
 
 - VLOOKUP
