@@ -174,3 +174,52 @@
     - set_gphi( )
     - get_cell // get_node // get_reference_x
   - Class: 
+
+
+
+
+
+#### Numerical
+
+- DenseMatrix
+  - get                    -- 获得矩阵(i,j)元素
+  - set                    -- 设置矩阵(i,j)元素为 v
+  - shape              -- 获取矩阵形状
+  - multiply / *     -- 矩阵向量乘法
+  - trans_mult      -- 矩阵转置后与向量做乘法
+  - =                       -- 矩阵深度拷贝
+  - transpose       -- 转置
+  - print                -- 稠密打印
+- SparseMatrix
+  - 功能与DenseMatrix基本一致；
+  - 增添SprseMatrix::Tri的类，并支持使用三元组修改和添加元素；
+- solver_tool
+  - 工具函数： comp_ji, dot, squareNorm, GeneratePlaneRotation, ApplyPlaneRotation, Update
+  - 可数类：
+    - SolverType { Direct, Iterative };
+    - SolverFunction { CG, Bicgstab, Gmres, Minres, QMR, LU, LDLT };
+    - SolverPreconditioner { iLU0,   SOR,   Identity, Diag, Tri_diag,   Jacobi,  GS,  CAMG,  Saddle};
+    - SaddlePreconditioner { iLU0, CAMG };
+    - SolverCondenseType{Condense, Discondense};
+- matrix_tool
+  - 稠密矩阵和稀疏矩阵相互转化；
+  - DsMat full(const SpMat& A);   SpMat sparse(const DsMat& A);
+- strength_connection:给定稀疏矩阵和$\theta$，找出强连接关系的元素，返回稀疏矩阵C;
+- cf_splitting：给定矩阵之后计算最大独立无关集矩阵，可能需要先进行图像的预处理；
+- interpolation： 计算粗网格到细网格的插值矩阵P，需要强连接矩阵；
+- mg_tool
+- mg_operator
+- saddle_matrix
+
+
+
+#### LAC
+
+- 求解器的核心组成部分，需要提供的主要信息是矩阵A，右端向量b，和求解信息solver_information;
+  其中information除了包含迭代次数items，迭代误差tol，还有迭代算法的信息，不同迭代方法需要用到的迭代信息，比如SOR方法中用到的solver_information.weight，共四类信息:
+  - 先判断是直接算法或者是迭代算法SolverType，
+  - 根据不同的求解方法选择不同的具体的算法SolverFunction，
+  - 根据不同的求解算法选择不同的预处理方法SolverPreconditioner,
+  - 如果选择的预处理方法是Saddle类型的，需要再选择具体的SaddlePreconditioner;
+- 关于线性方程组的求解：
+  - 
