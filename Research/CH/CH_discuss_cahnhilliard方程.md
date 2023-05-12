@@ -54,3 +54,61 @@
     
 
 
+
+#### 230418 AC方程RM元求解时的线性化方程误差估计
+
+- 讲解文章（2017 Error Analysis of Mixed Finite Element Methods for Nonlinear Parabolic Equation）
+
+  - 证明不等式$\|u_{h}\|_{L^{p}} \leq C \| \sigma_{h}\|_{L^{2}}$
+
+    - Key to prove is the relationship between **mixed FEMs** and the **discontinuous Galerkin** FEMs
+    - 给出DG范数的定义：$\left\|u_h\right\|_{D G}^2:=\sum_{K \in \mathcal{T}_h} \int_K\left|\nabla u_h\right|^2 \mathrm{~d} x+\sum_{F \in \mathcal{F}_h} \frac{1}{h_F} \int_F\left| [ u_h] \right|^2 \mathrm{~d} x$
+
+    - 上述范数定义成立式子：$\left\|u_h\right\|_{L^p} \leq C\left\|u_h\right\|_{D G}$
+    - 借助变分方程$\left(\sigma_h, \boldsymbol{\chi}_h\right)+\left(u_h, \operatorname{div} \boldsymbol{\chi}_h\right)=0, \quad \forall \chi_h \in \mathbf{H}_h^r(\Omega)$，选择特定的$\chi_{h}$是$\nabla u_{h}$的投影，就可以得到$\left\|u_h\right\|_{D G}^2=\left(\sigma_h, \chi_h\right) \leq\left\|\sigma_h\right\|_{L^2(\Omega)}\left\|\chi_h\right\|_{L^2(\Omega)} \leq C\left\|\sigma_h\right\|_{L^2(\Omega)}\left\|u_h\right\|_{D G}$
+
+  - 给出RM元的误差估计利用上述不等式：
+
+    - 对真解$u$具有某种光滑性的假设，对于时空网格尺寸要求充分小就有结论成立；
+    - $\max _{0 \leq n \leq N}\left(\left\|u_h^n-u^n\right\|_{L^2}^2+\tau \sum_{m=1}^n\left\|\boldsymbol{\sigma}_h^m-\sigma^m\right\|_{L^2}^2\right) \leq C_*\left(\tau^2+h^{2 r+2}\right)$
+    - 上述结论中的$\| \sigma\|_{L^{2}}$实际上是$\|u\|_{1}$范数阶，是合理的误差估计范数；
+
+- 待做:
+
+  - CH方程的误差估计范数选择$\|u\|_{2}$同阶的即可；
+
+    - 沈捷老师文章中选择$w=\triangle u$给出的误差估计是：
+      $$
+      \begin{aligned}
+      \left\|u\left(t^k\right)-u_N^k\right\|_0+ & \left(\delta t \sum_{n=0}^k\left\|w\left(t_{n+1}\right)-w_N^{n+1}\right\|_0^2\right)^{\frac{1}{2}} \\
+      & \leq C(\varepsilon, T)\left(K_5(u, \varepsilon) \delta t+K_6(u, \varepsilon) N^{-m}\right), \quad \forall 0 \leq k \leq \frac{T}{\delta t}
+      \end{aligned}
+      $$
+
+    - 类似于2017RM元AC方程的文章给出误差估计，由于采用类似的证明，需要借助$(L^{2},H_{h}^{2})$ pair给出相关的分析，具体可参考张敏师姐和马睿师姐的文章：
+
+      $\max _{0 \leq n \leq N}\left(\left\|u_h^n-u^n\right\|_{L^2}^2+\tau \sum_{m=1}^n\left\|\boldsymbol{\sigma}_h^m-\sigma^m\right\|_{L^2}^2\right) \leq C_*\left(\tau^2+h^{2 r+2}\right)$
+
+  - CH方程的能量估计可能是更困难的事情，因为能量的定义中要估计$\nabla u$，因此可能需要借助$(H^{1},H^{1}_{h})$ pair给出$\nabla_{h} u_{h}$的估计；
+
+
+
+#### 230509 能量估计的方法
+
+- 关于守恒性质：
+  - 质量守恒和能量守恒是不一样的，质量守恒是指$u$在整个区域上的积分随着时间不发生改变，而能量守恒指的是能量$E$随着时间的发展是不发生改变的；
+  - AC方程是质量不守恒的，但是CH方程是质量守恒的，需要注意的是质量是否守恒与所给的边值有关；
+  - AC方程和CH方程都是能量耗散的；
+- 关于误差估计的方法：
+  - 误差估计是在什么范数意义下的估计$H^{1}$还是$L^{\infty}$意义下？
+  - 误差估计的方法有很多，但是只需要给出一种即可，采用上次讨论提到的方法证明；
+  - 误差估计中用到的假设只要对$F(u)=u^{3}-u$是成立的即可；
+- 关于能量稳定性证明的思路：
+  - 沈捷老师文章中给出了当$u$是属于$H^{1}$的时候，直接利用方程，取测试函数为某些项，即可得到能量的估计
+  - 但是混合元方法中得到的位移只是$L^{2}$的，如何提出对应的能量方法？
+    - 使用有限元空间函数给出离散情况下的能量，但是此时的梯度不是连续的？
+    - 利用有限元解进行重构，得到$H^{1}$意义下的解，然后再利用沈捷老师文章的方法证明？
+- 后续计划：                    
+  - 刘震将误差估计仿照之前AC方程的证明思路书写完成；
+  - 马睿师姐给出重构的方法，并尝试给出能量估计；
+  - 张敏师姐可以开始计算混合元的数值算例实现；

@@ -2,41 +2,18 @@
 
 > Copyright ZhenLiu
 >
-> 2022/10/23
+> 2023/05/12
 
 
 
-##### 力学知识相关
+#### 钻杆模拟
+
+- <a href="pdf/SLB_动态扭矩和拉拽模型(SPE2022).pdf" target="_blank">SLB_动态扭矩和拉拽模型(SPE2022)</a>
+- <a href="pdf/SLB_深水和超深水钻井钻柱的非线性动力特性(JPSE2022).pdf" target="_blank">SLB_深水和超深水钻井钻柱的非线性动力特性(JPSE2022)</a>
 
 
 
-##### 位移法求解线弹性力学问题
+#### 接触模型
 
-- <a href="pdf/FEM_Fengk_MathematicalTheoryOfElasticStructure.pdf" target="_blank">弹性结构的数学理论（英文）</a>
-- <a href="pdf/FEM_冯康石钟慈_弹性结构的数学理论.pdf" target="_blank">弹性结构的数学理论（中文）</a>
-
-
-
-##### 混合元方法
-
-- <a href="pdf/Comb_四阶问题混合形式收敛性1972.pdf" target="_blank">四阶问题混合形式收敛性（1972）</a>
-- <a href="pdf/Comb_四阶问题混合形式等价性HHJ.pdf" target="_blank">四阶问题混合形式等价性（HHJ）</a>
-
-
-
-##### 弹性组合体问题
-
-- <a href="pdf/FEM_huang2006_GeneralElasticMultistructures.pdf" target="_blank">多弹性组合体结构（黄建国2006）</a>
-
-
-
-##### 薄板弯曲问题
-
-- <a href="pdf/FEM_李顺才_弹性薄板弯曲及平面问题的自然边界元方法.pdf" target="_blank">弹性薄板弯曲及平面问题的自然边界元方（李顺才）</a>
-
-
-
-##### 有限元外微分相关
-
-- [外微分读书笔记](Research/Comb/FEM_exteriordiff_外微分笔记.md)
-- 
+- <a href="pdf/SLB_几何精确量模型和两根粱接触方案(IJSS2018).pdf" target="_blank">SLB_几何精确量模型和两根粱接触方案(IJSS2018)</a>
+- <a href="pdf/SLB_水平钻杆动态阻力和扭矩的计算与分析(NGIB2018).pdf" target="_blank">SLB_水平钻杆动态阻力和扭矩的计算与分析(NGIB2018)</a>

@@ -6,6 +6,20 @@
 
 
 
+#### Mac Terminal配置
+
+- ⚠️在卸载任何终端的时候，都需要备份一下zshrc以及basic，否则将会被清空！！！
+- [安装更新卸载ohmyzsh的方法](https://zhuanlan.zhihu.com/p/35283688)
+- 设置自己喜欢的[主题](https://learnku.com/articles/53567)
+- 配置ohmyzsh插件的方法：
+  - [安装自动补全以及语法高亮的插件](https://juejin.cn/post/7066993763117170702)
+  - [fasd插件](https://www.jianshu.com/p/9557ffa1fedb)
+  - [网页浏览](https://juejin.cn/post/7110009485783433229#heading-8)
+
+
+
+
+
 #### Linux 服务器管理
 
 [参考链接-Linux教程](https://www.runoob.com/linux/linux-user-manage.html)

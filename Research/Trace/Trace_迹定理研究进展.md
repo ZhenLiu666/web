@@ -4,14 +4,7 @@
 
 
 
-#### 220910
-
-- 【阅读】双调和问题三角形四面体上的混合元构造方法，胡俊，马睿，张敏；
-- 【阅读】BBF的书籍；
-
-
-
-#### 221030
+#### 221030  Laplace算子公式
 
 - 恒等式：$-\triangle \boldsymbol{w}= -  \mathbf{grad} \mathbf{div} \boldsymbol{w} + \mathbf{curl}^{*} \mathbf{curl} \boldsymbol{w} $
 
@@ -38,7 +31,6 @@
 
 - $\mathbf{curl}^{*}$算子的定义：$(\mathbf{curl} \boldsymbol{u}, \boldsymbol{v}) = ( \boldsymbol{u}, \mathbf{curl}^{*} \boldsymbol{u} ) $
 
-  注意$\mathbf{curl}$算子的定义：
 
 
 
@@ -46,7 +38,7 @@
 
 
 
-#### 221108
+#### 221108 p～=2的证明框架
 
 - curl算子和div算子：
 
@@ -148,3 +140,38 @@
       $(\nabla \boldsymbol{w}, \nabla \boldsymbol{h} ) = (\mathbf{curl} \boldsymbol{v}, \mathbf{curl} \boldsymbol{h})  \quad  \forall \boldsymbol{h} \in \boldsymbol{W}^{1,q}_{*}(R^{N})$
 
     - 注意上式中的$\mathbf{curl}\boldsymbol{v} \in \boldsymbol{W}^{n,p}(R^{N})$，从而对应的$w \in \boldsymbol{W}^{n+1,p}(R^{N})$
+
+
+
+
+
+#### 230414 文章框架
+
+- Introduction
+  - Basic Notation
+    - sobolev notation
+    - scaler, vector, operator
+  - Recall:
+    - trace theorem in smooth domain 
+    - trace theorem with lipsthiz boundary
+  - What's the meaning of this passage
+    - more general prove method and suit for any dimension
+    - give a potential theory in any dimension which is not simple
+- Potential function
+  - curl operator 	
+    - definition using exterior calculus
+    - verify this definition is satisfy all the needs in this passage
+  - Green's function in $R^{N}$
+  - LEMMA:wely theorm
+  - generalized potential theorem (Here the $r \in N^{*}$)
+    - prove for $r=0$: can be proved at a strong form $L^{2}$ case or not the weak solution 
+    - prove for $r=1$: 
+    - prove for $r>1$ : similary to $r=1$
+- Sufficient condition for $W^{3,p}$ 
+  - using the potential theorem to give a detail prove
+  - give some lemmas firstly if necessary
+- Necessary and Sufficient condition for $W^{r,p}$
+  - Essential property is that:  the $\nabla^{r}$ has a smooth property， which means although the trace itself has low smoothness, but the linear combination of them has a better smoothes
+  - The low order $\nabla^{k}(k<r)$ is also the necessary condition, which should be considered
+
+ 
