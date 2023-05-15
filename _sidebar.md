@@ -89,7 +89,7 @@
 
   - [Terminal](Programming/Terminal/Terminal.md)
 
-  - [Cpp](Programming/Cpp/Cpp.md)
+  - [CPP](Programming/CPP/CPP.md)
 
   - [Python](Programming/Python/Python.md)
 

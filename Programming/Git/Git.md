@@ -149,9 +149,107 @@
 
 - 参考文档
 
+- ##### repo init
+
+  init 主要用来初始化一个多仓库工作空间，init后在目录下会有一个 .repo 隐藏文件夹，常用的方式为：
+  命令格式为：
+
+  > repo init -u \<repo-manifest-url\> -m \<config-file.xml\> -b \<branch-name\>
+
+  一般情况下，不需要指定分支，使用如下命令即可：
+
+  > repo init -u \<repo-manifest-url\> -m \<config-file.xml\>
+
+  初始化后，如果需要重新修改远程的配置文件，可以直接使用下面命令：
+
+  > repo init -m \<another-config-file.xml\>
+
+  另外，如果manifest仓库也存在多分支，可以使用`-b <branch-name>`来切换分支，在已经初始化好仓库的情况下，也可以使用如下命令快速切换分支：
+
+  > repo init -b \<another-branch-name\>
+
+  ##### repo sync
+
+  sync命令主要用来同步上游仓库，类似git clone。在repo init只是初始化工作空间，即只同步了上游的repo manifest，如果需要拉取各个仓库还需要使用sync命令：
+
+  > repo sync [project-list]
+
+  sync命令可以不带参数，表示拉取配置文件下的所有仓库，指定参数的情况下只会来取指定的仓库。
+
+  ##### repo start
+
+  start命令用来新建分支，是git branch命令的封装。**注意repo start新建的分支的远程上游分支是repo manifest里面指定的reversion分支。**
+
+  start命令格式如下
+
+  > repo start <branch-name> [project-list | --all]
+
+  使用`--all`命令表示对所有已经sync的仓库建立新的分支，如果指定project-list表示对指定的仓库新建分支。
+
+  ##### repo forall
+
+  forall命令表示遍历仓库，并执行相应的命令，格式如下：
+
+  > repo forall [project-list] -p -c <git-command>
+
+  - 如果不指定project-list表示对所有仓库执行命令
+  - `-p`表示对每个仓库进行格式化输出
+  - `-c`必要参数，后续跟相应的git-command
+  - git-command 表示具体需要执行的git命令，如：`git add .`等等
+
+  这个命令可以很灵活的使用，因为`repo upload`命令暂时无法使用，所以可以使用这个命令进行批处理。
+
+  ##### repo status
+
+  status命令用于查看当前工作空间的状态，是git status的封装。
+
+  > repo status
+
+  ##### repo branch
+
+  branch命令用户查看当前工作空间所处的分支状况，是git branch的封装。
+
+  > repo branch
+
+  ##### repo upload
+
+  upload用于上传提交到远端进行评审，目前只支持gerrit，由于我们没有代码评审仓库，所以这命令暂时不能使用。
+
+  > repo upload
 
 
+### 
 
+#### Repo常用命令
+
+- 使用repo init初始化工作空间
+
+  > repo init -u \<repo-manifest-url\>
+
+- 使用repo sync 同步需要的子仓库
+
+  > repo sync project [project1 [...]]
+
+- 使用repo start 建立工作分支，注意：**最好使用和远程上游同样的分支名**
+
+  > repo start \<branch-name\> --all
+
+- 修改代码
+
+- 提交代码更改
+
+  > repo forall -c git add .
+  > repo forall -c git commit -m "commit message'
+
+- 推送代码到远端
+
+  > repo forall -c git push \<remote\> \<local-branch\>:\<remote-branch\>
+
+  如果repo start时新建的工作分支名和远程分支名一致的情况下，可以简化命令
+
+  > repo forall -c git push
+
+### 
 
 #### Repo常用命令
 
