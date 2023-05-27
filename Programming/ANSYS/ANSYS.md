@@ -13,8 +13,16 @@
 #### 参考资料：
 
 - [ANSYS-APDL算例仓库](https://github.com/ZhenLiu666/ANSYS)
+
+- [水哥ANSYS官方网站](https://fscae.com)
+
 - [水哥ANSYS算例50讲的百度网盘](https://pan.baidu.com/s/1c0PeQIbdkm83cvrEA3GxjA?pwd=akde#list/path=%2Fsharelink3792599951-593762539511420%2F经典50讲资料&parentPath=%2Fsharelink3792599951-593762539511420)
+
+  - 提取码：akde
+
 - <a href="ANSYS_APDL_Learning.md">水哥ANSYS初级教程学习笔记</a>
+
+  
 
 
 
