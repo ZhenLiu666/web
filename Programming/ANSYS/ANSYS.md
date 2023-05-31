@@ -22,6 +22,8 @@
 
 - <a href="ANSYS_APDL_Learning.md">水哥ANSYS初级教程学习笔记</a>
 
+- <a href="结构耦合设置.md">结构耦合设置</a>
+
   
 
 
