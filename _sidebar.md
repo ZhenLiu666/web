@@ -2,6 +2,11 @@
 
 - 研究-Research
 
+  - [文章阅读](Research/Article/Article_Intro)
+    - 有限元领域
+    - 数值分析与代数
+    - 力学与工程
+  
   - [钻杆在井中的模拟](Research/SLB/SLB_钻杆模拟.md)
     - [研究进展](Research/SLB/SLB_钻杆模拟研究进展.md)
     - [交流学习](Research/SLB/SLB_discuss_钻杆模拟.md)
@@ -48,14 +53,14 @@
     - [CPP异常](Course/ProgrammingDesign/221015_程序设计实习_CPP异常.md)
     - [标准模版库STL](Course/ProgrammingDesign/221015_程序设计实习_标准模版库STL.md)
     - [文件操作](Course/ProgrammingDesign/221015_程序设计实习_文件操作.md)
-  
+
 - 兴趣-Interest
 
   - [约束优化](Interest/约束优化/约束优化.md)
   - [多重网格](Interest/多重网格/多重网格.md)
   - [最优运输](Interest/最优运输/221022_OT_交流学习.md)
   - [特征值问题](Interest/特征值问题/EigenVal_交流学习.md)
-  
+
 - 生活-Skills
 
   - [Excel](Skills/Excel.md)
@@ -104,6 +109,6 @@
   - [Python](Programming/Python/Python.md)
 
   - [Terminal](Programming/Terminal/Terminal.md)
-  
+
     
 
