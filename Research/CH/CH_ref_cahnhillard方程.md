@@ -8,9 +8,21 @@
 
 #### CH方程的数值格式
 
-- <a href = "CH_AC和CH方程的数值分析_沈捷2014"  target = "_blank"> AC和CH方程的数值分析(沈捷2014)</a>
+- <a href = "pdf/CH_AC和CH方程的数值分析_沈捷2014.pdf"  target = "_blank"> AC和CH方程的数值分析(沈捷2014)</a>
 
-- <a href = "CH_CH方程的数值分析_风小兵2003Num"  target = "_blank"> CH方程的数值分析(风小兵2003Num)</a>
+- <a href = "pdf/CH_CH方程的数值分析_风小兵2003Num.pdf"  target = "_blank"> CH方程的数值分析(风小兵2003Num)</a>
+
+- <a href = "pdf/CH_微分方程中的Cahn-Hilliard方程_Amy2008.pdf"  target = "_blank"> 微分方程中的Cahn-Hilliard方程(Amy2008)</a>
+
+- <a href = "pdf/CH_Cahn-Hilliard二阶能量稳定格式_JCP杨志国2019.pdf"  target = "_blank"> Cahn-Hilliard二阶能量稳定格式(JCP杨志国2019)</a>
+
+- <a href = "pdf/CH_Cahn-Hilliard方程的有限元误差分析_张铁2006.pdf"  target = "_blank"> CH_Cahn-Hilliard方程的有限元误差分析(张铁2006)</a>
+
+- <a href = "pdf/CH_CH数值分析和HeleShaw问题的逼近1_凤小兵2001SJNA.pdf"  target = "_blank"> CH数值分析和HeleShaw问题的逼近1(凤小兵2001SJNA)</a>
+
+- <a href = "pdf/CH_CH数值分析和HeleShaw问题的逼近2_凤小兵2001SJNA.pdf"  target = "_blank"> CH数值分析和HeleShaw问题的逼近1(凤小兵2001SJNA)</a>
+
+- <a href = "pdf/CH_四阶时间发展方程的局部DG方法_舒其望1991.pdf"  target = "_blank"> 四阶时间发展方程的局部DG方法(舒其望1991)</a>
 
   
 
@@ -26,5 +38,5 @@
 
 #### CH方程的空间解法
 
-- <a href = "CH_CH方程的非协调有限元方法_王鸣2010JCP"  target = "_blank"> CH方程的非协调有限元方法(王鸣2010JCP)</a>
+- <a href = "pdf/CH_CH方程的非协调有限元方法_王鸣2010JCP.pdf"  target = "_blank"> CH方程的非协调有限元方法(王鸣2010JCP)</a>
 - 

@@ -23,6 +23,7 @@
 - <a href="pdf/Comb_divdiv协调元的有限元方法(陈龙).pdf" target="_blank">divdiv协调元的有限元方法(陈龙)</a>
 - <a href="pdf/Comb_剪切效应简单有效三角形单元板弯曲(工程).pdf" target="_blank">剪切效应简单有效三角形单元板弯曲(工程)</a>
 - <a href="pdf/Comb_协调对称divdiv有限元复形构造（陈龙）.pdf" target="_blank">协调对称divdiv有限元复形构造（陈龙）</a>
+- <a href="pdf/Comb_板弯曲问题的混合有限元方法_Thomas2023ArX.pdf" target="_blank">板弯曲问题的混合有限元方法(Thomas2023ArX)</a>
 
 
 

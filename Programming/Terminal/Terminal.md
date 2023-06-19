@@ -18,6 +18,27 @@
 
 
 
+#### Terminal 常用命令
+
+- find函数
+  - find . -name "* HZ *" 找出包含HZ的所有文件
+  - find . -name "*.pdf" -type f -mtime -2 -exec ls -lt {} \; 找出最近两天打开的文件并按照时间顺序排列
+  - find . -name " *Matlab *" | grep P3P2 | xargs open 找到包含P3P2和Matlab文件并打开
+- grep函数
+  - 搜索关键字，通常和管道｜一起使用；
+- 查看文件开头或结尾的内容：`head <文件路径>`和`tail <文件路径>`
+  - `head -n <行数> <文件路径>`：显示文件开头的前几行
+  - `tail -n <行数> <文件路径>`：显示文件结尾的后几行
+  - `tail -f <文件路径>`：实时追踪文件的变化，显示最新的内容
+- 系统监测：`htop`和`top`
+  - `htop`：交互式的进程监视器，可查看和管理系统资源并终止进程；
+  - `top`：实时显示系统中运行的进程和资源使用情况；
+- 文件压缩和解压缩：
+  - `tar -czvf <压缩文件名.tar.gz> <要压缩的文件或目录>`：创建压缩文件;
+  - `tar -xzvf <压缩文件名.tar.gz>`：解压缩文件到当前目录;
+
+
+
 
 
 #### Linux 服务器管理
@@ -82,12 +103,12 @@ passwd testadmin
 
 - 从自己的电脑上把文件xxx复制到另一台远程机上的命令⽰例：
 
-scp 本机文件xxx的路径 另一台机器的用户名@IP地址:~/Desktop/xxx
+  scp 本机文件xxx的路径 另一台机器的用户名@IP地址:~/Desktop/xxx
 
-例如：scp ~/Desktop/Xcode12.4 Cindy@10.10.27.1:~/Desktop/Xcode12.4.xip
+  例如：scp ~/Desktop/Xcode12.4 Cindy@10.10.27.1:~/Desktop/Xcode12.4.xip
 
 - 从另一台远程机上把文件xxx复制到自己电脑上的命令⽰例：
 
-scp -r 另一台机器的用户名@IP地址:~/Desktop/xxx 要存放Xcode13.1的本机路径
+  scp -r 另一台机器的用户名@IP地址:~/Desktop/xxx 要存放Xcode13.1的本机路径
 
-例如：scp -r Cindy@10.10.27.1:~/Downloads/Xcode_13.1.xip ~/Desktop/Xcode_13.1.xip
+  例如：scp -r Cindy@10.10.27.1:~/Downloads/Xcode_13.1.xip ~/Desktop/Xcode_13.1.xip

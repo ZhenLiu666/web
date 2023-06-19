@@ -16,6 +16,7 @@
     - [编程开发](Research/BeFEM/BeFEM_code.md)
     - [自适应算法](Research/BeFEM/221023_FEM_adaptive.md)
     - [工程实践](Research/BeFEM/230114_FEM_engirneer.md)
+    - [延伸阅读](Research/BeFEM/BeFEM_ref_工程实践.md)
     - [vtk](Research/BeFEM/BeFEM_vtk.md)
     - [gmsh](Research/BeFEM/BeFEM_gmsh.md)
   - [弹性组合体问题](Research/Comb/Comb_弹性组合体问题.md)
@@ -60,6 +61,7 @@
   - [多重网格](Interest/多重网格/多重网格.md)
   - [最优运输](Interest/最优运输/221022_OT_交流学习.md)
   - [特征值问题](Interest/特征值问题/EigenVal_交流学习.md)
+  - [人工智能](Interest/人工智能/AI_人工智能.md)
 
 - 生活-Skills
 

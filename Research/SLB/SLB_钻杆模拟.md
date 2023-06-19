@@ -1,4 +1,4 @@
-### meetlog_钻杆在井中的模拟
+### 钻杆在井中的模拟
 
 > Copyright ZhenLiu
 
