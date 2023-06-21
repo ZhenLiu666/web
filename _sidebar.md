@@ -58,10 +58,11 @@
 - 兴趣-Interest
 
   - [约束优化](Interest/约束优化/约束优化.md)
-  - [多重网格](Interest/多重网格/多重网格.md)
-  - [最优运输](Interest/最优运输/221022_OT_交流学习.md)
+  - [MG多重网格](Interest/多重网格/多重网格.md)
+  - [OT最优运输](Interest/最优运输/221022_OT_交流学习.md)
   - [特征值问题](Interest/特征值问题/EigenVal_交流学习.md)
-  - [人工智能](Interest/人工智能/AI_人工智能.md)
+  - [AI人工智能](Interest/人工智能/AI_人工智能.md)
+  - [VI变分不等式](Interest/变分不等式/AI_变分不等式.md)
 
 - 生活-Skills
 

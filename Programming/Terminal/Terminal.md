@@ -18,6 +18,33 @@
 
 
 
+#### Conda 环境配置
+
+- [Mac终端使用conda](https://www.zhangtianchen.com/archives/mac-anacondaprompt)
+
+- 由于python的版本不兼容，并且执行不同任务的时候需要不同的仓库，因此需要环境的管理，创建不同的运行环境，设置当前环境下默认的python编辑器，根据不同的使用目的可以设置不同的运行环境，具体可以在anaconda中查看配置的环境和已经安装的包。
+
+- 常用命令
+
+  ```bash
+  # 查看当前的运行环境，是否激活环境，python的版本等信息
+  conda info 
+  # 初始化环境
+  conda init bash  
+  # 查看当前的环境列表
+  conda env list
+  # 安装包，但是只能向当前的环境中安装
+  conda install package  / pip install package
+  # 激活环境
+  conda activate  / conda deactivate
+  # 用网页打开jupyternotebook
+  jupyter notebook
+  ```
+
+  
+
+
+
 #### Terminal 常用命令
 
 - find函数

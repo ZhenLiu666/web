@@ -20,11 +20,14 @@
 
 #### 神经网络
 
-<a href = "pdf/AI_机器学习和数值方法_金鹏展"  target = "_blank">机器学习和数值方法(金鹏展)</a>
+- Reference
+  - <a href = "pdf/AI_机器学习和数值方法_金鹏展.pdf"  target = "_blank">机器学习和数值方法(金鹏展)</a>
+  - <a href = "pdf/AI_HINTS使用神经网络和松弛法求解PDE_Enrui2022ArX.pdf"  target = "_blank">HINTS使用神经网络和松弛法求解PDE(Enrui2022ArX)</a>
+  - <a href = "pdf/AI_AONN_尹鹏飞2023ArX.pdf"  target = "_blank">AONN(尹鹏飞2023ArX)</a>
 
-<a href = "pdf/AI_HINTS使用神经网络和松弛法求解PDE_Enrui2022ArX"  target = "_blank">HINTS使用神经网络和松弛法求解PDE(Enrui2022ArX)</a>
-
-<a href = "pdf/AI_AONN_尹鹏飞2023ArX"  target = "_blank">AONN(尹鹏飞2023ArX)</a>
-
-
+- Notes
+  - [Run-Jupernotebook](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)
+  - [MicroSoft - AI-For_Beginner](https://microsoft.github.io/AI-For-Beginners/)
+  - [Azure-Machine_Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste&view=azureml-api-2)
+  - 
 
