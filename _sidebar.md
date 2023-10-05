@@ -57,7 +57,7 @@
 
 - 兴趣-Interest
 
-  - [OU耦合问题](Interest/耦合问题/耦合问题.md)
+  - [OU耦合方法](Interest/耦合方法/耦合方法.md)
   - [约束优化](Interest/约束优化/约束优化.md)
   - [MG多重网格](Interest/多重网格/多重网格.md)
   - [OT最优运输](Interest/最优运输/221022_OT_交流学习.md)
