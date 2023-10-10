@@ -29,11 +29,22 @@
 
 ##### 弹性组合体问题
 
+- <a href="pdf/Comb_弹性组合结构中的增强板的区域分解方法(Frederic1993).pdf" target="_blank">Comb_弹性组合结构中的增强板的区域分解方法(Frederic1993)</a>
+
+  - **关键词**：Multi-structures, Stiffened plate, Domain decomposition
+  - **值得学习**：（1）*摘要*部分总结工程和数学两种弹性组合体问题建模的方法和思路！ 
+  - **核心创新**： （1）
+
 - <a href="pdf/Comb_huang2006_GeneralElasticMultistructures.pdf" target="_blank">多弹性组合体结构（黄建国2006）</a>
 
 - <a href="pdf/Comb_huang2005_GeneralElasticMultistructures.pdf" target="_blank">多弹性组合体结构（黄建国2005）</a>
 
-- <a href="pdf/Comb_两个板拼接位移协调元方法(1988).pdf" target="_blank">两个板拼接位移协调元方法(1988)</a>
+- 🌟<a href="pdf/Comb_两个板拼接位移协调元方法(1988).pdf" target="_blank">两个板拼接位移协调元方法(1988)</a>
+
+  - **关键词**：Junction plate, Displacement, Conforming element, RCT element, 
+
+  - **值得学习**：（1）
+  - **核心创新**： （1）
 
 - <a href="pdf/Comb_三角形和四面体上的双调和混合元(马睿).pdf" target="_blank">三角形和四面体上的双调和混合元(马睿)</a>
 
@@ -67,9 +78,15 @@
 - <a href="pdf/Comb_HHJ单个板混合边值新变分和分解(2018).pdf" target="_blank">HHJ单个板混合边值新变分和分解(2018)</a>
 - <a href="pdf/Comb_HHJ低次元的实现方法（马睿）.pdf" target="_blank">HHJ低次元的实现方法（马睿）</a>
 
-  
 
-  
+
+##### 板壳问题研究
+
+- <a href="pdf/Comb_简要分析MITC4和MITC9_BatheBrezzi1987.pdf" target="_blank">Comb_简要分析MITC4和MITC9_BatheBrezzi1987</a>
+  - **关键词**：MITC4, MITC9, Mindlin-Reissner, Linear operator **R**, Error Estimate, Stokes problem
+  - **值得学习**：（1）通过插值算子的方式实现剪切应变能的计算分析！ （2）借助stokes问题解的估计，构造性证明误差估计的方法！
+  - **核心创新**： （1）提出一个平面壳元，弯曲部分用Q1，平面应力部分用Q1，适用一般四边形的网格划分； （2）分析了板壳厚度为0的极限情况方程，以及对应的误差估计！
+- 
 
 
 
