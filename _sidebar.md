@@ -2,17 +2,13 @@
 
 - 研究-Research
 
-  - [文章阅读](Research/Article/Article_Intro)
-    - 有限元领域
-    - 数值分析与代数
-    - 力学与工程
-  
   - [钻杆在井中的模拟](Research/SLB/SLB_钻杆模拟.md)
     - [研究进展](Research/SLB/SLB_钻杆模拟研究进展.md)
     - [交流学习](Research/SLB/SLB_discuss_钻杆模拟.md)
     - [延伸阅读](Research/SLB/SLB_ref_钻杆模拟.md)
     - [代码介绍](Research/SLB/SLB_代码介绍.md)
   - [有限元工业软件开发](Research/BeFEM/BeFEM.md)
+    - [日常会议](Research/BeFEM/BeFEM_meeting.md)
     - [编程开发](Research/BeFEM/BeFEM_code.md)
     - [自适应算法](Research/BeFEM/221023_FEM_adaptive.md)
     - [工程实践](Research/BeFEM/230114_FEM_engirneer.md)
