@@ -14,7 +14,12 @@
 
 - <a href = "pdf/CH_微分方程中的Cahn-Hilliard方程_Amy2008.pdf"  target = "_blank"> 微分方程中的Cahn-Hilliard方程(Amy2008)</a>
 
-- <a href = "pdf/CH_Cahn-Hilliard二阶能量稳定格式_JCP杨志国2019.pdf"  target = "_blank"> Cahn-Hilliard二阶能量稳定格式(JCP杨志国2019)</a>
+- :star: <a href = "pdf/CH_Cahn-Hilliard二阶能量稳定格式_JCP杨志国2019.pdf"  target = "_blank"> Cahn-Hilliard二阶能量稳定格式(JCP杨志国2019)</a>
+
+  - **关键词**：second-order unconditional energy-stable, equivalent systems with auxiliary variable, $(n+\theta)$ step, two efficient solution algorithms, four de-coupled Helmholtz type equations
+  - **摘要**： 主要介绍如何处理非线性方程的非线性部分，使得能量是稳定的？
+    - nonlinear schemes:  convex splitting, 中点近似, Taylor展开， 设计特殊积分
+    - linear schemes: 添加稳定化项，Lagrange乘子， 能量不变二次化(IEQ)，  辅助变量法(SAV)
 
 - <a href = "pdf/CH_Cahn-Hilliard方程的有限元误差分析_张铁2006.pdf"  target = "_blank"> CH_Cahn-Hilliard方程的有限元误差分析(张铁2006)</a>
 
