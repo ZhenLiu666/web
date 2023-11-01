@@ -53,6 +53,7 @@
 
 - 兴趣-Interest
 
+  - [FS流固耦合](Interest/FS流固耦合/FS_流固耦合)
   - [OU耦合方法](Interest/耦合方法/耦合方法.md)
   - [约束优化](Interest/约束优化/约束优化.md)
   - [MG多重网格](Interest/多重网格/多重网格.md)
