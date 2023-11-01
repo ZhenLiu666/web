@@ -6,6 +6,15 @@
 
 
 
+##### **渐进分析的弹性组合体研究**
+
+- [Modeling_junctions_between_elasticstructures(1988Ciarlet)](https://books.google.com.hk/books?hl=zh-CN&lr=&id=3D_ohpXOX-YC&oi=fnd&pg=PA62&dq=modeling+and+numerical+ana+Ciarlet&ots=eeXqPtRbYV&sig=ovvAnib_7RcGnq1LVfzzhlF4bs4&redir_esc=y#v=onepage&q=modeling%20and%20numerical%20ana%20Ciarlet&f=false)
+  - **关键词：**solid with plate inserted,  variational equations, convergence when $\varepsilon \rightarrow 0$
+  - ⚠：后续完整版1989年文章中的证明更加详细： [Junciton_2D_3D_linearelastic(1989Ciarlet)](https://www.academia.edu/download/53760865/junction_3d-2d_1989.PDF)
+- 
+
+
+
 ##### 位移法求解线弹性力学问题
 
 - <a href="pdf/FEM_Fengk_MathematicalTheoryOfElasticStructure.pdf" target="_blank">弹性结构的数学理论（冯康/英文）</a>
