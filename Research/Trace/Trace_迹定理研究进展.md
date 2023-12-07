@@ -175,3 +175,4 @@
   - The low order $\nabla^{k}(k<r)$ is also the necessary condition, which should be considered
 
  
+
