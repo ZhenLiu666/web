@@ -26,6 +26,7 @@
     - [研究进展](Research/CH/CH_cahnhilliard研究进展.md)
     - [交流学习](Research/CH/CH_discuss_cahnhilliard方程.md)
     - [延伸阅读](Research/CH/CH_ref_cahnhillard方程.md)
+  - [Inter_界面问题](Research/Interface/Inter_ref_界面问题.md)
   
 - 课程-Course
   - [有限元课程](Course/FEMCourse/FEMCourse.md)
